@@ -1,6 +1,7 @@
 # Lab Report 1 - Remote Access and Filesystem
 
 *Set your password*
+
 If it is your first time logging in, you would first need to reset your password. 
 You can find basic account infromation with this link here, https://sdacs.ucsd.edu/~icc/index.php. 
 Here, you will find instructions to reset your account password which we will use later during the lab. 
