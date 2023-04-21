@@ -29,4 +29,4 @@ Then enter your own password and you should be perfectly logged in.
 
 At this point, we are free to run some commands we learned in class and whatnot.
 Some of these might not make immediate sense to us right now, but down the line I feel like we'll understand it better.
-Simple commands such as CD, mkdir, ls, are all familiar to us from different classes.
+Simple commands such as ```CD```, ```mkdir```, ```ls```, are all familiar to us from different classes.
