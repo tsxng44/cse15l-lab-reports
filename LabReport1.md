@@ -20,7 +20,7 @@ You could download VScode on your own devices with this link here, [Link](https:
 ![Image](remoteconnect.PNG)
 
 Remember to use gitbash for the terminal we installed.
-Then to login, type the command ''' # code block ssh cs15lsp23gx@ieng6.ucsd.edu ''' after the dollar sign.
+Then to login, type the command ``` ssh cs15lsp23gx@ieng6.ucsd.edu ``` after the dollar sign.
 Then enter your own password and you should be perfectly logged in.
 
 *Trying some Commands*
