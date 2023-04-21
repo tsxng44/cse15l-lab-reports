@@ -3,7 +3,7 @@
 *Set your password*
 
 If it is your first time logging in, you would first need to reset your password. 
-You can find basic account infromation with this link here, https://sdacs.ucsd.edu/~icc/index.php. 
+You can find basic account infromation with this link here, [Link](https://sdacs.ucsd.edu/~icc/index.php.) 
 Here, you will find instructions to reset your account password which we will use later during the lab. 
 
 *Installing VS Code*
@@ -13,13 +13,14 @@ Here, you will find instructions to reset your account password which we will us
 Thankfully on school computers, visual studio code is already installed for us to use. 
 In the case as to where I would have to use my own laptop, instructions are straightforward and simple. 
 Remember to install git before attempting to remotely connect to the server.
+You could download VScode on your own devices with this link here, [Link](https://code.visualstudio.com/)
 
 *Remotely Connecting*
 
 ![Image](remoteconnect.PNG)
 
 Remember to use gitbash for the terminal we installed.
-Then to login, type the command ssh cs15lsp23gx@ieng6.ucsd.edu after the dollar sign.
+Then to login, type the command ''' # code block ssh cs15lsp23gx@ieng6.ucsd.edu ''' after the dollar sign.
 Then enter your own password and you should be perfectly logged in.
 
 *Trying some Commands*
