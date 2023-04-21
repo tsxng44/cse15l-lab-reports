@@ -29,4 +29,12 @@ Then enter your own password and you should be perfectly logged in.
 
 At this point, we are free to run some commands we learned in class and whatnot.
 Some of these might not make immediate sense to us right now, but down the line I feel like we'll understand it better.
-Simple commands such as ```CD```, ```mkdir```, ```ls```, are all familiar to us from different classes.
+Simple commands such as ```CD```, ```mkdir```, ```ls```, ```cat```, and ```pwd```  are all familiar to us from different classes.
+As a refresher, ```CD``` or "change directory" is used to change the current working directory into a given path.
+```mkdir ``` is known as "make directory", which as the name suggests, makes a new directory.
+```ls``` or "list" is known to list the files and folders within the given path.
+```pwd``` is short for "print working directory" which simply displays the current working directory.
+```cat``` is used to print the contents of one or more files given by the listed paths. 
+
+
+![Image](Capture.PNG)
