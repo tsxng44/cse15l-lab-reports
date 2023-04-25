@@ -43,7 +43,7 @@
 * How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why?
    I believe that in terms of this specific example, as shown by the ```y = x + "\n" + parameters[1];```, the added messages are added onto the previous string in order to maintain the previous string as an output.
 
-**Part 2**
+## Part 2 
 * Failure Inducing Bug
 ```
   public void testReverseInPlaceTwo() {
@@ -61,7 +61,7 @@
 	}
 ```
 * Screenshot of the Symptom
-![Image](failure.PNG)
+![Image](failures.PNG)
 * Before Code Change
 ```
 static int[] reversed(int[] arr) {
@@ -84,3 +84,6 @@ return Array2;
 ```
 * How this fixes the issue?
 The way I tried to solve this was by instead of looping it through a new array, I looped it through my old array but in verse and directed those new values into the new array and just returned the new array directly. This makes sure that the new array gets filled up with values from the first array but in reverse. 
+
+## Part 3
+The last time I took Java, was at an somewhat entry level course in high school. The strategies and tools that were taught in that class was very basic and simplistic. However, over these past two weeks, from both lecture, lab, and personal studies, I have learned immense amounts about the Java language. One of the most prevalant things I learned for sure was about how to create my own web server. This was something I thought was very advanced before I took this class, and now I found out that it is pretty simple in comparison to everything else. Another thing I learned these past two weeks was abouth how to properly make and run our own test cases. In high school, the Java programs we used involved using an automated test case tester written by the teacher. However, now, I am able to not only write my own test cases but also adapt my code and fix it based off different test cases that I write myself. 
