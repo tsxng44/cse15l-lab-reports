@@ -44,3 +44,43 @@
    I believe that in terms of this specific example, as shown by the ```y = x + "\n" + parameters[1];```, the added messages are added onto the previous string in order to maintain the previous string as an output.
 
 **Part 2**
+* Failure Inducing Bug
+```
+  public void testReverseInPlaceTwo() {
+    int[] input1 = {1, 2, 3, 4, 5, 6, 7, 8};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{8, 7, 6, 5, 4, 3, 2, 1}, input1);
+  }
+```
+* Input that Does not Induce a Failure
+```
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
+```
+* Screenshot of the Symptom
+![Image](failure.PNG)
+* Before Code Change
+```
+static int[] reversed(int[] arr) {
+int[] newArray = new int[arr.length];
+for(int i = 0; i < arr.length; i+= 1) {
+arr[i] = newArray[arr.length - i - 1];
+}
+return arr;
+}
+```
+* After Code Change
+```
+static int[] reversed(int[] arr) {
+int[] Array2 = new int[arr.length];
+for(int i = 0; i < arr.length; i += 1) {
+Array2[i] = arr[arr.length - i - 1];
+}
+return Array2;
+}
+```
+* How this fixes the issue?
+The way I tried to solve this was by instead of looping it through a new array, I looped it through my old array but in verse and directed those new values into the new array and just returned the new array directly. This makes sure that the new array gets filled up with values from the first array but in reverse. 
